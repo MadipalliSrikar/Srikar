@@ -299,7 +299,11 @@ header {
   left: 0;
   right: 0;
   z-index: 9;
-  margin: 0 auto; }
+  margin: 0 auto; 
+
+  nav .navbar li a:hover {
+    color: #CA82F8 !important;}
+}
   @media screen and (max-width: 768px) {
     header {
       padding: 2em 0; } }
